@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calzado Store</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar-principal">
+            <div class="logo">
+                <a href="#inicio">Calzado Stored</a>
+            </div>
+            <ul class="menu-principal">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#reseñas">Reseñas</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <div class="iconos-navbar">
+                <img src="images/carrito.svg" alt="carrito de compras" class="iconos-navbar" >
+                <img src="images/icono-usuario.svg"  class="iconos-navbar" >
+            </div>
+        </nav>
+    
+        <nav class="navbar-categorias">
+            <ul>
+                <li><a href="#hombre">Hombre</a></li>
+                <li><a href="#mujer">Mujer</a></li>
+                <li><a href="#deporte">Deporte</a></li>
+                <li><a href="#novedades">Novedades</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="inicio" class="intro">
+            <h1>Bienvenidos a Calzado Store</h1>
+            <p>Encuentra el calzado perfecto para cada ocasión, desde zapatillas hasta zapatos elegantes.</p>
+        </section>
+
+    <section class="video-section">
+        <iframe width="80%" height="auto" src="https://www.youtube.com/embed/aVs2Y_mNMTc?autoplay=1&mute=1" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+    </section>  
+
+        <section id="productos" class="section productos">
+            <h3>Productos</h3>
+            <div class="producto-lista">
+                <div class="producto-card">
+                    <img src="images/adidas-running-duramo.webp" alt="Zapatilla Deportiva">
+                    <h4>Zapatilla Deportiva</h4>
+                    <p>$80,000</p>
+                </div>
+                <div class="producto-card">
+                    <img src="images/zapatoAsturias.webp" alt="Zapato Elegante">
+                    <h4>Zapato Elegante</h4>
+                    <p>$100,000</p>
+                </div>
+                <div class="producto-card">
+                    <img src="images/zapatilla-vendida2.jpg" alt="Zapato Elegante">
+                    <h4>Zapato Elegante</h4>
+                    <p>$100,000</p>
+                </div>
+                <div class="producto-card">
+                    <img src="images/zapatos-vendidos2.jpg" alt="Zapato Elegante">
+                    <h4>Zapato Elegante</h4>
+                    <p>$100,000</p>
+                </div>
+                <div class="producto-card">
+                    <img src="images/zapatoAsturias.webp" alt="Zapato Elegante">
+                    <h4>Zapato Elegante</h4>
+                    <p>$100,000</p>
+                </div>
+                <div class="producto-card">
+                    <img src="images/adidas-running-duramo.webp" alt="Zapatilla Deportiva">
+                    <h4>Zapatilla Deportiva</h4>
+                    <p>$80,000</p>
+                </div>
+                <div class="producto-card">
+                    <img src="images/zapatoAsturias.webp" alt="Zapato Elegante">
+                    <h4>Zapato Elegante</h4>
+                    <p>$100,000</p>
+                </div>
+                <div class="producto-card">
+                    <img src="images/zapatilla-vendida2.jpg" alt="Zapato Elegante">
+                    <h4>Zapato Elegante</h4>
+                    <p>$100,000</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="reseñas" class="section reseñas">
+            <h3>Reseñas de Clientes</h3>
+            <div class="reseñas-grid">
+                <div class="reseña-item">Excelente calidad de zapatillas. ¡Me encantan!</div>
+                <div class="reseña-item">Los zapatos elegantes son muy cómodos.</div>
+                <div class="reseña-item">Rápida entrega y atención al cliente excepcional.</div>
+            </div>
+        </section>
+
+        <section id="contacto" class="section contacto">
+            <h3>Contáctanos</h3>
+            <form action="https://formspree.io/f/myzyjvve" method="POST">
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="email" name="email" placeholder="Correo Electrónico" required>
+                <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>© 2024 Calzado Store - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
