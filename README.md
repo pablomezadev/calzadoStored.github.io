@@ -13,9 +13,9 @@
 
 ---
 
-## Cómo Ver el Proyecto 
+# Cómo Ver el Proyecto 
 
-# En local
+## local
 
 1. Descargar o clonar este repositorio:
 
@@ -24,6 +24,6 @@
 
 2. Abrir el archivo index.html en cualquier navegador.
 ---
-# Desde github Pages:
+## Desde github Pages:
 
 https://calzadostored.github.io/index.html
